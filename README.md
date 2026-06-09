@@ -60,8 +60,8 @@ On application startup, the backend seeds one initial admin account from environ
 ```properties
 ADMIN_SEED_ENABLED=true
 ADMIN_NAME=System Admin
-ADMIN_EMAIL=admin@example.com
-ADMIN_PASSWORD=Admin@12345
+ADMIN_EMAIL=your-admin-email
+ADMIN_PASSWORD=your-password-admin
 ```
 
 For production or deployment, override `ADMIN_EMAIL` and `ADMIN_PASSWORD` in the hosting environment.
